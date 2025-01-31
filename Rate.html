@@ -1,0 +1,43 @@
+<!DOCTYTPE html>
+<html>
+<head>
+<title>MovieRater</title>
+<link rel="stylesheet" href="rate.css">
+<script src="rate.js"></script>
+</head>
+<body>
+<nav class="navbar">
+<ul class="kaon">
+<li class="class"><a href="Home.html">Home</a></li>
+<li class="class"><a href="about.html">About</a></li>
+<li class="class"><a href="Rate.html">Rate</a></li>
+
+</ul>
+
+</nav>
+
+ <title>Rate a Film</title>
+</head>
+<body>
+    <h1>Rate a Film</h1>
+   
+    <label for="filmSelect">Choose a film:</label>
+    <select id="filmSelect">
+        <option value="sonic">Sonic the Hedgehog 3</option>
+        <option value="nosferatu">Nosferatu</option>
+        <option value="betterMan">Better Man</option>
+    </select>
+   
+    <br><br>
+   
+    <label for="rating">Rate the film (1-10):</label>
+    <input type="number" id="rating" min="1" max="10">
+   
+    <button id="submitRating">Submit Rating</button>
+   
+    <h2 id="message"></h2>
+   
+    <script src="rate.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+
+body{
+	background-color:#4C4C4C;
+}
+
+
+
+
+.navbar{background-color:#3C4B46 ;
+padding:15px 0;
+text-align:center;
+justify-content:space-between;
+}
+
+
+
+.kaon
+ {
+	 list-style-type: none;
+padding:0;
+margin:0;
+display:flex;
+justify-content:center;
+
+}
+
+
+.class{
+	margin:0 15 px;}
+	
+.class a{
+	text-decoration:none;
+color:black;
+font-size:16px;
+padding:0 30px;
+border-radius:5px;
+transition:background-color 0.3s ease;}
+
+.class a:hover{ background-color:green;
+ }
+
+
+
+.kaoni
+{
+	color:#C0C0C0;
+	font-family:arial;
+	margin-left:22px;
+}
+
+
+.k1{
+	width:245px;
+	height:311px;
+	margin-left:20px;
+	border-radius:13%;
+}
+
+
+.k2{
+	width:245px;
+	height:311px;
+	margin-left:20px;
+	border-radius:13%;
+	
+}
+
+.k3{
+	width:245px;
+	height:311px;
+	margin-left:20px;
+	border-radius:13%;
+	
+}
+
+
+.ar{
+	font-familly:arial;
+	text-align:center;
+	color:white;
+}
+
+
+
+.ka{
+	font-familly:arial;
+	text-align:center;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
